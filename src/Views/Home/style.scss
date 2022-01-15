@@ -1,0 +1,20 @@
+.Home {
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161623;
+
+  .Background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 3rem;
+    background-image: url(../../Assets/glimmer_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
