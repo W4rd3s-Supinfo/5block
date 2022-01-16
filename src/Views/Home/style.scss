@@ -1,20 +1,13 @@
 .Home {
-  height:100%;
+  height: calc(100vh - 6rem);
+  width: calc(100vw - 6rem);
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #161623;
-
-  .Background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 3rem;
-    background-image: url(../../Assets/glimmer_bg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url(../../Assets/glimmer_bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: solid #161623 3rem;
 }
