@@ -11,11 +11,9 @@ const useDappConfig: Config = {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={reduxStore}>
-      <DAppProvider config={useDappConfig}>
-        <App />
-      </DAppProvider>
-    </Provider>
+    <DAppProvider config={useDappConfig}>
+      <App />
+    </DAppProvider>
 
   </React.StrictMode>,
   document.getElementById('root'),

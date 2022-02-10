@@ -1,0 +1,65 @@
+.BetButtons {
+  height: 10rem;
+  width: 50rem;
+  border-radius: 50% 50% 0 0;
+
+  &__Animation {
+    position: absolute;
+    bottom: 0;
+  }
+
+  &__Group {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__Input {
+    text-align: center;
+
+    &:first-child, &:last-child {
+      margin-top: 2.5rem;
+    }
+
+    &:nth-child(2), &:nth-last-child(2) {
+      margin-top: 1.25rem;
+    }
+  }
+
+  &__Radio {
+    display: none;
+    // visibility: hidden;
+    // height: 0;
+    // width: 0;
+  }
+
+  &__NumberInput {
+    margin: 0;
+    margin-top: -2.5rem;
+  }
+
+  &__Label {
+    display: block;
+    width: 7rem;
+    height: 2rem;
+    margin: .5rem;
+    text-align: center;
+    line-height: 2rem;
+
+    &--selected {
+      background-color: #382033;
+      color: white;
+    }
+  }
+
+  &__Footer {
+    display: flex;
+    align-items: center;
+  }
+
+  &__Start {
+    &__Button { //BetButton__Start__Button
+      padding: .5rem 1.5rem .5rem 1.5rem;
+    }
+  }
+}

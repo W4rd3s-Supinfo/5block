@@ -9,7 +9,7 @@ const WalletDisconnector: FC<mProps> = ({ onButtonClick }: mProps): ReactElement
   <div className="WalletDisconector">
     <input
       type="button"
-      className="WalletDisconector__Button"
+      className="Button"
       value="Disconnect"
       onClick={() => { onButtonClick(); }}
     />

@@ -1,25 +1,11 @@
 .WalletDisconector {
-  z-index: 1;
-  &__Button {
+  &__Animation {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background-color: rgba(255,255,255,.75);
-    border: 1px solid rgba(255,255,255,.25);
-    box-shadow: 0px 0px 10px 2.5px rgba(255,255,255,.15);
-    border-radius: 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #382033;
-    line-height: 100%;
-    padding: 0.5rem 2.5rem;
-    transition-duration: 0.15s;
-    cursor: pointer;
+  }
 
-    &:hover {
-      background-color: #382033;
-      color: white;
-    }
+  & .Button {
+    padding: 0.5rem 2.5rem;
   }
 }

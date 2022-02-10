@@ -11,3 +11,31 @@
   background-size: cover;
   border: solid #161623 3rem;
 }
+
+.Wheel {
+  margin-top: -7.5rem;
+}
+
+.ResultPopup {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #101010;
+  padding: 1rem 3rem;
+
+  &__Filigrame {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+  }
+
+  & .Button {
+    padding: .5rem 1rem;
+  }
+}
